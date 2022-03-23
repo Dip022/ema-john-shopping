@@ -1,8 +1,10 @@
 .hero-section {
   display: grid;
   grid-template-columns: 3fr 2fr;
+  align-items: center;
   padding: 0 150px;
   margin-top: 160px;
+  margin-bottom: 100px;
 }
 .hero-info .discount {
   font-size: 17px;

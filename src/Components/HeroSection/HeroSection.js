@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
+import images from "../../images/hero-img.png";
 
 const HeroSection = () => {
   return (
@@ -11,7 +12,7 @@ const HeroSection = () => {
         <button>SHOP NOW</button>
       </div>
       <div>
-        <h1>Hero image</h1>
+        <img src={images} alt="" />
       </div>
     </div>
   );
