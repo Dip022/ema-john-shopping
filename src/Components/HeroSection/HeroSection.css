@@ -1,0 +1,32 @@
+.hero-section {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  padding: 0 150px;
+  margin-top: 160px;
+}
+.hero-info .discount {
+  font-size: 17px;
+  color: #ff9900;
+  margin-bottom: 60px;
+}
+.hero-info h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #1c2b35;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.hero-info p {
+  font-size: 24px;
+  color: #2a414f;
+  margin-top: 7px;
+}
+.hero-info button {
+  padding: 13px 35px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 54px;
+  cursor: pointer;
+  background-color: #ff9900;
+}
