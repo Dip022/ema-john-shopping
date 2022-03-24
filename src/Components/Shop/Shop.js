@@ -7,13 +7,12 @@ const Shop = () => {
   useEffect(() => {
     fetch("products.json")
       .then((res) => res.json())
-      .then((data) => console.log(data));
+      .then((data) => setCart(data));
   }, []);
   return (
     <div className="shop">
       <div className="products">
-        <h1>Product list</h1>
-        <Cart></Cart>
+        <Cart cart={cart}></Cart>
       </div>
       <div className="order-summary">
         <h1>order summary</h1>
