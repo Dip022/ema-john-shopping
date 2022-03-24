@@ -1,9 +1,10 @@
 import React from "react";
 
-const Cart = () => {
+const Cart = ({ product }) => {
+  console.log(product.name);
   return (
     <div>
-      <h1>Cart</h1>
+      <h1>Name: {product.name}</h1>
     </div>
   );
 };
