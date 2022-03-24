@@ -4,3 +4,8 @@
   gap: 30px;
   padding: 0 120px;
 }
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+}
