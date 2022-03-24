@@ -1,8 +1,9 @@
 .cart {
   width: 300px;
-  height: 508px;
+  height: 528px;
   border: 1px solid #95a0a7;
   border-radius: 10px;
+  position: relative;
 }
 .product-info {
   margin: 7px;
@@ -20,4 +21,23 @@
 }
 .product-price {
   font-size: 17px;
+}
+.add-btn {
+  width: 100%;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  font-size: 16px;
+  background-color: #ffe0b3;
+  border-radius: 0 0 9px 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-btn:hover {
+  color: #fff;
+  background-color: orange;
+}
+.btn-text {
+  margin-right: 10px;
 }
