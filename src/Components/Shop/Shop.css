@@ -3,6 +3,7 @@
   grid-template-columns: 6fr 2fr;
   gap: 30px;
   padding: 0 120px;
+  margin-bottom: 100px;
 }
 .products {
   display: grid;

@@ -16,6 +16,9 @@ const Cart = ({ product }) => {
         <p>Manufacturer: {seller}</p>
         <p>Rating: {ratings} start</p>
       </div>
+      <button className="add-btn">
+        <p>Add to Cart</p>
+      </button>
     </div>
   );
 };
